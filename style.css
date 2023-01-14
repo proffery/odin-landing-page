@@ -17,12 +17,15 @@ body {
     background-color: #1f2937;
     align-items: center;
     justify-content: center;
-    color: #f9faf8;
-    font-size: 24px;
+    padding-top: 16px;
+    
 }
 .header-left {
     display: flex;
     width: 500px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
 }
 
 .header-right {
@@ -36,8 +39,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .hero {
     display: flex;
@@ -66,9 +69,9 @@ body {
 button {
     background-color: #3882f6;
     color: white;
-    padding: 4px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 6px;
     border: none;
 }
