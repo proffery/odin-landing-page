@@ -36,6 +36,7 @@ body {
 
 .header-bottom {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     padding-top: 100px;
@@ -88,6 +89,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
