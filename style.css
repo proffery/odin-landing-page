@@ -152,7 +152,24 @@ body {
     font-weight: 600;
 }
 
-button {
+.call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.call-area {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 20px;
+    border-radius: 6px;
+    color: #f9faf8;
+}
+
+.singup {
     background-color: #3882f6;
     color: white;
     padding: 6px;
@@ -161,6 +178,22 @@ button {
     border-radius: 6px;
     border: none;
 }
+
+.call-right .singup {
+    border: 1px solid #f9faf8;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.call-left {
+    padding-left: 30px;
+}
+
+.call-header-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 ul {
     display: flex;
     list-style: none;
